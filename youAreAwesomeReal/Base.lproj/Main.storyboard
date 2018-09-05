@@ -31,6 +31,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="0r1-Qr-QKg"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="Kailasa" family="Kailasa" pointSize="14"/>
                                 <state key="normal" title="Show Message">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
