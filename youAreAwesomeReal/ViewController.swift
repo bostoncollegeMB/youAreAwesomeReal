@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         messageLabel.text = messages.randomElement()!
         
-     /*   if index == messages.count-1 { index = 0 } else { index = index + 1}*/
+        /*   if index == messages.count-1 { index = 0 } else { index = index + 1}*/
         
         /*index = index + 1
          if index == 3 { index = index - 3} */
