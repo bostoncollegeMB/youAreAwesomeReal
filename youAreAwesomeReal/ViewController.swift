@@ -21,14 +21,23 @@ class ViewController: UIViewController {
     @IBAction func showMessagePress(_ sender: UIButton) {
         let messages = ["You are fantastic!", "You are great!", "You are amazing!"]
         
-        messageLabel.text = messages.randomElement()!
+        var newIndex = -1
+        
+        repeat {
+            newIndex = Int.random(in: 0..<messages.count)
+        } while index == newIndex
+        
+        index = newIndex
+        messageLabel.text = messages[index]
+        
+        /*messageLabel.text = messages.randomElement()!*/
         
         /*   if index == messages.count-1 { index = 0 } else { index = index + 1}*/
         
         /*index = index + 1
-         if index == 3 { index = index - 3} */
+         if index == 3 { index = index - 3}
         
-      /*  messageLabel.text = messages[index]*/
+       messageLabel.text = messages[index]*/
         
         /* let message1 = "You are Awesome!"
          let message2 = "You Are Great!"
