@@ -55,7 +55,7 @@ class ViewController: UIViewController {
          let message2 = "You Are Great!"
          let message3 = "You Are Amazing!"
          
-         /
+         
          
          if messageLabel.text == message1
          { messageLabel.text = message2}
