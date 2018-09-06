@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     @IBAction func showMessagePress(_ sender: UIButton) {
         let messages = ["You are fantastic!", "You are great!", "You are amazing!"]
         
-        var newIndex = -1
+        var newIndex: Int
         
         repeat {
             newIndex = Int.random(in: 0..<messages.count)
